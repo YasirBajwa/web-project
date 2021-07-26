@@ -138,6 +138,7 @@
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
 }
 
 .section-4-1 p{
@@ -172,9 +173,9 @@
 }
 .copy-right{
     color: white;
-    margin-left: 40px;
+    margin-left: 200px;
     margin-top: 50px;
-    font-family: sans-serif;
+    font-family: monospace;
 
 }
 html {
@@ -276,6 +277,10 @@ html {
     }
     .section-4-1{
         height: 650px;
+    }
+    .copy-right{
+        color: white;
+        margin-left: 50px;
     }
    }
 
