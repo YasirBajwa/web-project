@@ -1,0 +1,293 @@
+.navbar-nav li{
+    padding-left: 15px;
+
+}
+.nav-link{
+    color: white !important;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+.navbar-nav{
+    margin-left: 310px;
+}
+.navbar-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+
+}
+ .nav-button{
+    width:135px;
+    height: 40px;
+    background-color: white !important;    
+    border-radius: 27px;
+    margin-left: 25px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.nav-button:hover{
+    width:135px;
+    height: 40px;
+    background-color: lightgrey !important;    
+    border-radius: 27px;
+    margin-left: 25px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.nav-button a{
+   color: black !important;
+   font-size: 13px;
+}
+.nav-b-text{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+}
+.image-section{
+  background: url('../images/img1.webp') no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+.contract-section{
+    height: 300px;
+    background-color: black;
+
+}
+
+.contract-text{
+    color: blue;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+}
+
+.token-section{
+    background-color: black;
+    padding-bottom: 150px;
+}.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.token-text{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.token-heading{
+    text-align: center;
+    color: white;
+    font-size: 88px;
+    margin-top: 55px;
+}
+.t1-d1,.t2-d1,.t3-d1{
+    color: white !important;
+    text-align: center;
+}
+.t1-d2,.t2-d2,.t3-d2{
+    font-size: 88px;
+    color: blue;
+    text-align: center;
+}
+
+.t1-d3,.t2-d3,.t3-d3{
+    font-size: 28px;
+    color: white;
+}
+
+.token-share{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.section-4{
+    background: url('../images/img3.webp') no-repeat ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1600px;
+    display: flex;
+    align-items: center;
+}
+.section-4-1{
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+    height: 1050px;
+}
+.section-4-1 h1{
+    font-size: 88px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-4-1 p{
+    font-size: 28px;
+    color: white;
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.section-5{
+    background-color: black;
+    padding-top: 150px;
+}
+
+.section-5 h1{
+    font-size: 88px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section-5 p{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: sans-serif;
+
+}
+.copy-right{
+    color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: sans-serif;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* -------------responsive------------- */
+
+@media(max-width:1240px){
+    .section-4-1{
+        height: 1100px;
+    }
+}
+
+@media(max-width:1105px){
+    .section-4-1 h1{
+        font-size: 50px;
+    }
+    
+    .section-4-1 p{
+        font-size: 18px;
+    }
+    .section-4-1{
+        height: 600px;
+    }
+}
+@media(max-width:992px){
+ .contract-text{
+     font-size: 22px;
+ }   
+ .token-heading{
+    font-size: 48px;
+}
+.t1-d3,.t2-d3,.t3-d3{
+    font-size: 16px;
+}
+
+.t1-d2,.t2-d2,.t3-d2{
+    font-size: 48px;
+    color: blue;
+}
+}
+
+
+@media(max-width:768px){
+    .token-text{
+        font-size: 18px;
+        font-weight: bold;
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: 55px;
+    } 
+    .token-image img {
+        width: 200px;
+    }
+    .section-4-1 h1{
+        font-size: 25px;
+    }
+    .section-5 h1{
+        font-size: 25px;
+        padding-top: 35px;
+    }
+    .section-5 p{
+        max-width: 80%;
+    }
+    .section-4-1 p{
+        font-size: 15px;
+    }
+    .section-4-1{
+        height: 550px;
+    }
+   }
+
+
+@media(max-width:570px){
+    .contract-text{
+        font-size: 15px;
+        text-align: center;
+    }  
+    .token-text{
+        font-size: 15px;
+        font-weight: bold;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 55px;
+    } 
+    .token-heading{
+        font-size: 28px;
+    }
+    .token-section{
+        justify-content: center;
+    }
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .t1-d3,.t2-d3,.t3-d3{
+        font-size: 12px;
+    }
+    .section-4-1{
+        height: 650px;
+    }
+   }
+
+
+   @media(max-width:370px){
+    .contract-text{
+        font-size: 11px;
+        text-align: center;
+    }  
+    .section-4-1{
+        height: 750px;
+       width: 90%;
+
+    }
+   }
