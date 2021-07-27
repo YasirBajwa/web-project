@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
     <link rel="stylesheet" href="css/style.css">
     <title>Website</title>
 </head>
 <body>
 
     <div class="navbar-container">
-        <nav class="navbar navbar-light bg-faded justify-content-between flex-nowrap flex-row">
-            <div class="container-fluid">
+        <nav class="navbar navbar-light bg-faded justify-content-between navbar-fixed-top flex-nowrap flex-row">
+            <div class="container-nav">
                 <ul class="nav navbar-nav flex-row float-left">
                     <li class="nav-item"><a class="nav-link pr-3" href="">HOME BASE</a></li>
                     <li class="nav-item"><a class="nav-link" href="#TOKENOMICS">TOKENOMICS</a></li>
@@ -44,6 +46,9 @@
         </div>
         <div class="token-text ">
             Binance Smart Chain Shib aka "SMART SHIB" is here! SMART SHIB is a fun new deflationary community driven token with exciting utility on our roadmap. Holders receive 4% of the tokens from every transaction through our auto farming mechanism. Smart Shib believes in only making SMART decisions for his holders. SMART token is designed to be anti-scam with no pre-sale, 100% LP burned and no large Dev wallet. We are currently developing SMART SWAP a user friendly decentralized exchange with farming and staking. The name Smart Shib is a play on the recent explosion of dog themed meme tokens. Yes, we aim to be a popular token. No, we do not plan on giving half of the supply to Vitalik or giving huge airdrops to celebrities that will instantly dump their coins. After the completion of "SMART SWAP" we will be working towards adding "SMART SWAP NFT" minting app. 
+        </div>
+        <div id="TOKENOMICS">
+
         </div>
         <div class="token-heading" id="TOKENOMICS">
             TOKENOMICS 9%
@@ -118,7 +123,7 @@
         </div>
     </div>
 
-        <div class="section-4" >
+        <div class="section-4" id="ROAD MAP">
             <div class="section-4-1">
                 <h1 id="ROAD MAP">SMART ROAD MAP</h1>
                 <p>
@@ -137,9 +142,11 @@ Complete SMART SWAP DEX and release after passing audit.
                 </p>
             </div>
         </div>
+      <div id="LIGHT PAPER">
 
+      </div>
       <div class="section-5">
-          <h1 id="LIGHT PAPER">SMART PAPER</h1>
+          <h1 >SMART PAPER</h1>
           <p>
             Total supply at launch was 1Quadrillion.
 
@@ -155,8 +162,25 @@ Complete SMART SWAP DEX and release after passing audit.
             ©2021 by SMART SHIBA
           </div>
       </div>  
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <a > <i class="fa fa-angle-up " style="font-size: 2em;"></i></a>
+    </button> 
+    <script >
+  var btn = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+    </script>
 </body>
 </html>
